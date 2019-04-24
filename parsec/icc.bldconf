@@ -1,0 +1,3 @@
+#!/bin/bash
+
+source ${PARSECDIR}/ext/splash2/kernels/radix/parsec/gcc.bldconf
