@@ -36,6 +36,11 @@
 /*  Note: This version works under both the FORK and SPROC models        */
 /*                                                                       */
 /*************************************************************************/
+//to build you need use gcc -g -Wall -o radix.o radix.c -lpthread
+//To run ./radix.o
+//To build with gprof you need gcc -g -Wall -o radix.o radix.c -lpthread -pg 
+// ./radix.o
+// gprof radix.o
 
 #include <stdio.h>
 #include <math.h>
